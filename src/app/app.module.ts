@@ -14,6 +14,9 @@ import {MatSelectModule} from '@angular/material/select';
 import { FormsModule } from '@angular/forms';
 import { CoinListComponent } from './coin-list/coin-list.component';
 import { CoinDetailComponent } from './coin-detail/coin-detail.component';
+import { HttpClientModule } from '@angular/common/http';
+
+
 
 @NgModule({
   declarations: [
@@ -30,6 +33,7 @@ import { CoinDetailComponent } from './coin-detail/coin-detail.component';
     MatFormFieldModule,
     MatSelectModule,
     FormsModule,
+    HttpClientModule,
 
   ],
   providers: [],
