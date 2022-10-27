@@ -31,3 +31,51 @@
     display: flex;
     align-items: center;
 }
+.card{
+    border:0;
+    background: transparent;
+    color:#fff;
+    padding: 30px;
+    margin: 40px;
+    width: 150px;
+    height: 200px;
+}
+.card img{
+    width: 70px;
+    margin:0 auto;
+}
+.card h5{
+    font-weight: 500;
+}
+.card p{
+    font-weight: 700;
+}
+
+table {
+    width: 100%;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  td, th {
+    width: 25%;
+  }
+
+  :host ::ng-deep .mat-sort-header-content {
+    color: #fff;
+}
+
+:host ::ng-deep .mat-paginator-outer-container {
+    background-color: rgb(36, 37, 37);
+}
+
+:host ::ng-deep tr.mat-header-row {
+    background-color: #009688;
+}
+
+:host ::ng-deep tr.mat-row {
+    height: 70px;
+}

@@ -15,6 +15,8 @@ import { FormsModule } from '@angular/forms';
 import { CoinListComponent } from './coin-list/coin-list.component';
 import { CoinDetailComponent } from './coin-detail/coin-detail.component';
 import { HttpClientModule } from '@angular/common/http';
+import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
 
 
 
@@ -34,6 +36,8 @@ import { HttpClientModule } from '@angular/common/http';
     MatSelectModule,
     FormsModule,
     HttpClientModule,
+    MatTableModule,
+    MatPaginatorModule,
 
   ],
   providers: [],

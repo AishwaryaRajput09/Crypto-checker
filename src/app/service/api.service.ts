@@ -6,9 +6,10 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ApiService {
 
-  constructor(private http:HttpClient) { 
+  constructor(private http:HttpClient) { }
 
-  }
+  
+
   getCurrency(currency:string){
     return this.http.get<any>(`https://api.coingecko.com/api/v3/coins/markets?vs_currency=${currency}&order=market_cap_desc&per_page=100&page=1&sparkline=false`);
   }
