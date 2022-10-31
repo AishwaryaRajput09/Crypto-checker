@@ -73,7 +73,7 @@ table {
 }
 
 :host ::ng-deep tr.mat-header-row {
-    background-color: #009688;
+    background-color: #14b6a3;
 }
 
 :host ::ng-deep tr.mat-row {
